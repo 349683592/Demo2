@@ -9,4 +9,6 @@ public interface MobileMapper {
 	
 	public Mobile findMobile(String mobilenumber);
 	
+	//老司机
+	public void findAll();
 }
