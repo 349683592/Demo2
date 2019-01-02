@@ -9,7 +9,12 @@ public interface MobileMapper {
 	
 	public Mobile findMobile(String mobilenumber);
 	
+
 	//公司新人
 	public void all();
 	
+
+	//老司机
+	public void findAll();
+
 }
